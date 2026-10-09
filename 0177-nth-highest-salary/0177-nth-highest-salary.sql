@@ -5,6 +5,6 @@ SET N = N - 1;
     select distinct salary
     from employee
     order by salary desc
-    limit 1 offset  N 
+    limit 1 offset  N
   );
 END
